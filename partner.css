@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: calc(100vh * 16 / 9);
+    height: 100vh;
+    background-image: url("/img/partner.png");
+    display: inline-block;
+    background-size: cover;
+    background-color: #fff;
+  }
+
+  .container .bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .content {
+    display: flex;
+    padding: 7.5rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration: none;
+  }
+  
+  .content .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: lighter;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .flex-container-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    padding-left: 120px;
+    padding-top: 120px;
+  }
+
+  .flex-container-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    padding-left: 120px;
+    padding-top: 0px;
+  }
+
+  .flex-container-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    padding-left: 120px;
+    padding-top: 0px;
+  }
+  
+  .flex-items {
+    flex-basis: auto;
+    text-align: left
+  }
+
+
+  /* text */
+
+  .header {
+    z-index: 1;
+    height: 75px;
+    border: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: light;
+    font-size: 73px;
+    line-height: 72px;
+    text-align: left;
+    color: #3D3D3D;
+  }
+
+  h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: light;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: lighter;
+    margin: unset;
+  }
+
+  .h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: light;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: lighter;
+  }
+
+  p {
+    margin: 0px;
+  }
+
+  .PartnerPlus {
+    padding-top: 78px;
+  }
+
+  /* logos */
+
+  .ParterPlusLogos {
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    padding: 10px 0px;
+    margin: 0px;
+  }
+
+  .blue {
+    width: 50%;
+  }
+
+  .platinum {
+    width: 50%;
+  }
