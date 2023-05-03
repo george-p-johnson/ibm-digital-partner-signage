@@ -1,7 +1,7 @@
 /* * {
     box-sizing: border-box;
 } */
-
+/* Handwritten CSS */
 body {
    margin: 0;
    font-family: 'IBM Plex Sans', sans-serif;
@@ -17,18 +17,72 @@ body {
 
 .platinum {
     flex-basis: 0%;
-    flex-grow: 1;
+    flex-grow: .8;
   }
   
   .image-gallery > a > img {
     width: 200px;
     height: auto;
-    padding-right: 1em;
+    padding-right: 3em;
+    padding-bottom: 3em;
   }
   
+  .platinum > a > img {
+    width: 120px;
+    height: auto;
+    padding-right: 1em;
+  }
+
+  /* #ey {
+    width: 60px;
+    height: auto;
+    padding-right: 1em;
+  } */
+
+  #aws {
+    width: 120px;
+    height: auto;
+  }
+
+  #sf {
+    width: 140px;
+    height: auto;
+  }
+
   a {
     text-decoration: none;
   }
+
+  /* copy & text */
+
+  .h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    padding: 0px 0px 0px 0px;
+    height: 75px;
+    border: none;
+  }
+
+    .h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: light;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+  }
+
 
   .h3 {
     font-family: 'IBM Plex Sans', sans-serif;
@@ -43,6 +97,7 @@ body {
     font-weight: lighter;
   }
 
+/* end custom css */
 
 .gjs-row{
    display:flex;
@@ -61,25 +116,13 @@ body {
    background-position:left top;
    background-attachment:fixed;
    background-size:cover;
-   background-image: url("/img/bg/.");
+   background-image: url("/img/bg/partner.png");
 }
 #iwxb{
    padding:5% 20% 10px 6%;
 }
-#iuqq{
-   padding:0px 0px 0px 0px;
-   font-size:44px;
-   height: 60px;
-   border: none;
-   font-family: 'IBM Plex Sans', sans-serif;
-   font-style: normal;
-   font-weight: light;
-}
-#i2tf{
-   padding:0px 0px 0px 0px;
-   transition:width 2s ease;
-   font-size:32px;
-}
+
+
 #iwbjc{
    padding:0px 0px 0px 0px;
    font-size:24px;
@@ -90,7 +133,7 @@ body {
    padding:20px 20% 20px 6%;
 }
 #i02cf{
-   padding:10px 0px 0px 0px;
+   padding:20px 0px 0px 0px;
    justify-content:space-between;
    align-self:center;
 }
@@ -225,7 +268,7 @@ body {
    padding:0px 0px 0px 0px;
 }
 #ir84w{
-   padding:0% 35% 0px 6%;
+   padding:0% 45% 0px 6%;
    margin:20px 0px 0px 0px;
 }
 #ig0gp{

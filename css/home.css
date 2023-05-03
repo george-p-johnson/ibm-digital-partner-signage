@@ -1,32 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    padding: 0;
-    height: 100vh;
+}
+
+.gjs-row {
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #container {
-    width: calc(100vh * 16 / 9);
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+.gjs-cell {
+    min-height: 75px;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+#i3rw {
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("/img/bg/home.png");
+}
+
+#isqno {
     height: 100vh;
-    background-color: #fff;
-  }
+}
 
-  #container .bg {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+#iy9bj {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* align-self: center; */
+}
 
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
+#il3i2 {
+    padding: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 300;
+    padding: 0px 0px 0px 0px;
+    height: 75px;
+    border: none;
+    color: #3D3D3D;
+    top:30%;
+    position: absolute;
+}
 
-/* Buttons */
-
-  .primary {
+#ihf9f {
     background-color: #0062FF;
     z-index: 1;
     position: absolute;
@@ -41,20 +74,20 @@ body {
     font-weight: lighter;
     font-size: 24px;
     text-decoration: none;
+    padding: 0px 0px 0px 0px;
+    min-height: auto;
+    margin: 0 0 0 0px;
+    width: 330px;
+    color: #fff
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
   }
-  
-  .headline {
-    z-index: 1;
-    position: absolute;
-    left: 958px;
-    top: 360px;
-    height: 75px;
-    border: none;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-style: normal;
-    font-weight: light;
-    font-size: 64px;
-    line-height: 72px;
-    text-align: left;
-    color: #3D3D3D;
-  }
+
+@media (max-width: 768px) {
+    .gjs-row {
+        flex-wrap: wrap;
+    }
+}
