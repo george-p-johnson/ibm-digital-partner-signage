@@ -6,6 +6,19 @@ body {
     margin: 0;
 }
 
+.h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: light;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+  }
+
 .gjs-row {
     display: flex;
     justify-content: flex-start;
@@ -25,7 +38,7 @@ body {
     background-position: left top;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url("/img/bg/home.png");
+    background-image: url("img/bg/home.png");
 }
 
 #isqno {

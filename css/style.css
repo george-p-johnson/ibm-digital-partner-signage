@@ -1,0 +1,54 @@
+/* Global Styles */
+
+/* Primary button */
+.bx--btn {
+    font-size: 1rem !important;
+}
+
+.secondary-btn {
+    background-color: #002D9C !important;
+}
+
+/* text */
+
+.h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    padding: 0px 0px 0px 0px;
+    height: 75px;
+    border: none;
+  }
+
+    .h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: light;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+  }
+
+
+  .h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: light;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: lighter;
+  }
