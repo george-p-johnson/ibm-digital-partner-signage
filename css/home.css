@@ -59,6 +59,12 @@ body {
     position: absolute;
 }
 
+.bx--btn {
+    display: inline-flex;
+    margin-top: 1rem;
+    font-size: 1rem !important;
+  }
+
 #ihf9f {
     background-color: #0062FF;
     z-index: 1;
@@ -66,8 +72,8 @@ body {
     left: 967px;
     /* top: 657px; */
     top:750px;
-    width: 390px;
-    height: 91px;
+    /* width: 390px; */
+    /* height: 91px;
     border: none;
     font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
@@ -78,7 +84,7 @@ body {
     min-height: auto;
     margin: 0 0 0 0px;
     width: 330px;
-    color: #fff
+    color: #fff */
 }
 
 a {
