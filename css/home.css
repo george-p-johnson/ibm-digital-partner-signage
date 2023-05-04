@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    background-image: url("/img/bg/home.png");
 }
 
 .h2 {
@@ -38,7 +39,6 @@ body {
     background-position: left top;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url("img/bg/home.png");
 }
 
 #isqno {

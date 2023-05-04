@@ -5,6 +5,7 @@
 body {
    margin: 0;
    font-family: 'IBM Plex Sans', sans-serif;
+   background-image: url("/img/bg/partner.png");
 }
 
 .image-gallery {
@@ -116,7 +117,6 @@ body {
    background-position:left top;
    background-attachment:fixed;
    background-size:cover;
-   background-image: url("img/bg/partner.png");
 }
 #iwxb{
    padding:5% 20% 10px 6%;
