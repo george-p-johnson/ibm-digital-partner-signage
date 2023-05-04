@@ -8,6 +8,20 @@ body {
    background-image: url("../img/bg/partner.png");
 }
 
+.image-gallery-plus {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ }
+
+ .image-gallery-plus > a > img {
+   width: 200px;
+   height: auto;
+   padding-right: 3em;
+   padding-bottom: 3em;
+ }
+
 .image-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -34,11 +48,11 @@ body {
     padding-right: 1em;
   }
 
-  /* #ey {
+  #ey {
     width: 60px;
     height: auto;
     padding-right: 1em;
-  } */
+  }
 
   #aws {
     width: 120px;
