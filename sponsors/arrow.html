@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="/css/cta.css">
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel='stylesheet' href='https://unpkg.com/carbon-components@latest/css/carbon-components.css'><link rel="stylesheet" href="./style.css">
 
@@ -16,7 +17,6 @@
       background-size: cover;
       background-image: url("/img/bg/partner.png");
   }
-
   </style>
 </head>
 
@@ -37,13 +37,26 @@
     </div>
     <div id="overlay"></div>
     <div id="popup">
-      <iframe src="https://www.arrow.com" id="popup-iframe"></iframe>
+      <iframe src="https://aguidehub.com" id="popup-iframe"></iframe>
     </div>
+
+    <div id="overlay3"></div>
+    <div id="popup3">
+      <iframe src="https://gpj.com" id="popup-iframe3"></iframe>
+    </div>
+
+    <div id="overlay4"></div>
+    <div id="popup4">
+      <iframe src="https://gpj.com" id="popup-iframe4"></iframe>
+    </div>
+
+
     <!-- Buttons -->
     <div class="gjs-row" id="i7jdbo">
       <div class="gjs-cell" id="imojck">
       <!-- Button 1 -->
-        <a id="ihf9f" href="/partner.html"><button class="bx--btn bx--btn--primary" type="button">
+        <!-- <a id="ihf9f" href="/partner.html"> -->
+          <button class="bx--btn bx--btn--primary" type="button" onclick="window.location.href='/partner.html';">
             Learn more about our sponsors
             <svg class="bx--btn__icon" width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
               <defs>
@@ -57,24 +70,24 @@
               <rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/>
             </svg>
           </button>
-        </a>
+        <!-- </a> -->
 
         <!-- Button 2 -->
-        <a id="ihf9f">
-        <button class="bx--btn bx--btn--primary" id="popup-button" >Learn more             <svg class="bx--btn__icon" width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <style>
-              .cls-1 {
-                fill: none;
-              }
-            </style>
-          </defs>
-          <polygon points="18 6 16.57 7.393 24.15 15 4 15 4 17 24.15 17 16.57 24.573 18 26 28 16 18 6" />
-          <rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32"
-            height="32" />
-          </svg>
+        <button class="bx--btn bx--btn--primary secondary-btn" id="popup-button" type="button">
+          Become a partner
+          <svg class="bx--btn__icon" width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: none;
+                }
+              </style>
+            </defs>
+            <polygon points="18 6 16.57 7.393 24.15 15 4 15 4 17 24.15 17 16.57 24.573 18 26 28 16 18 6" />
+            <rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32"
+              height="32" />
+            </svg>
         </button>
-      </a>
         <!-- <button id="popup-button" class="bx--btn bx--btn--primary secondary-btn" type="button">
           Learn more about our sponsors
           <svg class="bx--btn__icon" width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -91,7 +104,7 @@
           </svg>
         </button> -->
       <!-- Button 3 -->
-      <a id="ihf9f" href="/partner.html"><button class="bx--btn bx--btn--primary secondary-btn" type="button">
+      <button class="bx--btn bx--btn--primary secondary-btn" id="popup-button3" type="button">
         Become a partner
         <svg class="bx--btn__icon" width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
           <defs>
@@ -106,11 +119,9 @@
             height="32" />
           </svg>
       </button>
-    </a>
-
     <!-- Button 4 -->
-    <a id="ihf9f" href="/partner.html"><button class="bx--btn bx--btn--primary secondary-btn" type="button">
-      Learn more about our sponsors
+    <button class="bx--btn bx--btn--primary secondary-btn" id="popup-button4" type="button">
+      Become a partner
       <svg class="bx--btn__icon" width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <style>
@@ -124,7 +135,6 @@
           height="32" />
         </svg>
     </button>
-  </a>
       </div>
     </div>
 
@@ -141,6 +151,38 @@
       overlay.addEventListener("click", function () {
         overlay.style.display = "none";
         popup.style.display = "none";
+      });
+    </script>
+
+    <script>
+      const button3 = document.getElementById("popup-button3");
+      const overlay3 = document.getElementById("overlay3");
+      const popup3 = document.getElementById("popup3");
+
+      button3.addEventListener("click", function () {
+        overlay3.style.display = "block";
+        popup3.style.display = "block";
+      });
+
+      overlay3.addEventListener("click", function () {
+        overlay3.style.display = "none";
+        popup3.style.display = "none";
+      });
+    </script>
+
+    <script>
+      const button4 = document.getElementById("popup-button4");
+      const overlay4 = document.getElementById("overlay4");
+      const popup4 = document.getElementById("popup4");
+
+      button4.addEventListener("click", function () {
+        overlay4.style.display = "block";
+        popup4.style.display = "block";
+      });
+
+      overlay4.addEventListener("click", function () {
+        overlay4.style.display = "none";
+        popup4.style.display = "none";
       });
     </script>
   </body>

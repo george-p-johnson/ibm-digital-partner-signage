@@ -3,10 +3,12 @@
 /* Primary button */
 .bx--btn {
     font-size: 1rem !important;
+    min-width: 20% !important;
 }
 
 .secondary-btn {
     background-color: #002D9C !important;
+    min-width: 20% !important;
 }
 
 /* text */
