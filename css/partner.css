@@ -116,7 +116,7 @@ body {
    background-position:left top;
    background-attachment:fixed;
    background-size:cover;
-   background-image: url("/img/bg/partner.png");
+   background-image: url("img/bg/partner.png");
 }
 #iwxb{
    padding:5% 20% 10px 6%;
