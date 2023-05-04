@@ -120,4 +120,26 @@
   </body>
 </body>
 
+<script>
+  function resetToHomeScreen() {
+  // Get the current time.
+  var currentTime = new Date();
+
+  // Set a timer to reset the web app to the home screen after 30 seconds.
+  var timer = setTimeout(function() {
+    // Go back to the homepage.
+    history.go(index.html);
+  }, 3000);
+
+  // Listen for the "mousemove" event.
+  document.addEventListener("mousemove", function() {
+    // Clear the timer.
+    clearTimeout(timer);
+  });
+}
+
+// Call the resetToHomeScreen() function when the page loads.
+window.onload = resetToHomeScreen;
+</script>
+
 </html>
