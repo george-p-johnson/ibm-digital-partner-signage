@@ -31,7 +31,11 @@ body {
 }
 
 .modal-row {
-    height: 45vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .modal-img {
@@ -41,6 +45,8 @@ body {
 
 .modal-text {
     text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 #i3rw {
@@ -93,7 +99,7 @@ body {
 }
 
 #imojck {
-    margin: 5% 15% 0px 5%;
+    margin: 2% 15% 0px 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -185,8 +191,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 25vw;
-    height: 40vh;
+    width: 40vw;
+    height: 45vh;
     background-color: white;
     z-index: 1;
   }
